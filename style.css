@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header
+{
+     margin-left: 70px;
+     height: 75vh;
+
+}
+.b-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+
+}
+/* .s-container
+{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    
+} */
+/* .side-image
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+} */
+.btn-1
+{
+  border: 0;
+  background: none;
+  padding: 25px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.btn-2
+{
+    background-color: black;
+    color: white;
+    padding:8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.change-content
+{
+    font-size: 40px;
+}
+.change-content::after
+{
+    content:" " ;
+    animation: changetext 10s infinite linear;
+    color: black;
+}
+@keyframes changetext
+{
+    0%
+    {
+        content:"Hungry?";
+    }
+    25%
+    {
+        content: "Game Night?";
+    }
+    50%
+    {
+        content: "Cooking gone wrong?";
+    }
+    75%
+    {
+        content: "Late night at office?";
+    }
+    100%
+    {
+        content: "unexpected guests?";
+    }
+}
+.text1
+{
+    font-size: 30px;
+    color: gray;
+
+}
+.text2
+{
+    color: gray;
+    font-size: 15px;
+}
+span{
+    color: gray;
+}
+.location
+{
+    height: 40px;
+    width: 500px;
+}
+.btn-3
+{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(248, 91, 33);
+    color: white;
+    border: none;
+}
